@@ -1,0 +1,55 @@
+.form-user {
+  align-items: center;
+  background-color: $gray2;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  min-height: 800px;
+
+  .container-form {
+    background-color: white;
+    border-radius: 1rem;
+    max-width: 500px;
+    padding: 5rem 3rem;
+    width: 95%;
+
+    .form-field {
+      align-items: center;
+      display: flex;
+      margin-bottom: 2rem;
+      label {
+        flex: 0 0 100px;
+        font-family: $textFont;
+      }
+      input[type="password"],
+      input[type="email"],
+      input[type="text"] {
+        border: 1px solid $border;
+        flex: 1;
+        padding: 1rem;
+      }
+    }
+
+    .account-link {
+      border: 1px solid $border;
+      color: $gray2;
+      display: flex;
+      font-family: $headingFont;
+      justify-content: center;
+      margin-top: 2rem;
+      // opacity: 0.7;
+      padding: 1rem;
+      transition: .5s ease;
+
+      &:hover {
+        background-color: $border;
+      }
+    }
+  }
+
+  .shadow-dark {
+    -webkit-box-shadow: 0px 6px 11px -8px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 0px 6px 11px -8px rgba(0, 0, 0, 0.9);
+    box-shadow: 0px 6px 11px -8px rgba(0, 0, 0, 0.9);
+  }
+}
