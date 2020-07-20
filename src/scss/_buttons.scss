@@ -4,9 +4,9 @@
   padding: 1.5rem;
   font-size: 1.4;
   font-weight: 400;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   border: none;
-  transition: background-color .3s ease;
+  transition: background-color 0.3s ease;
   &:hover {
     cursor: pointer;
   }
@@ -23,4 +23,11 @@
 .btn-block {
   display: block;
   width: 100%;
+}
+
+.btn-blank {
+  margin: 0;
+  padding: 0;
+  display: block;
+  background-color: transparent;
 }

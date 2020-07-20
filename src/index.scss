@@ -1,6 +1,11 @@
 @import "./scss/colors&fonts";
 @import "./scss/buttons";
+
 @import "./components/auth/auth";
+@import "./components/projects/Projects";
+
+@import "./components/layout/SideBar";
+
 
 *,
 *:before,

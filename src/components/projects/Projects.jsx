@@ -1,7 +1,21 @@
 import React from 'react';
+import SiderBar from '../layout/SiderBar';
 
 const Projects = () => {
-  return <h1>Projects page</h1>;
+  return (
+    <div className="container-app">
+      
+      <SiderBar />
+
+      <div className="section-principal">
+        <main>
+          <div className="container-tasks">
+            
+          </div>
+        </main>
+      </div>
+    </div>
+  );
 };
 
 export default Projects;
